@@ -65,7 +65,8 @@
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
 
 'atom-text-editor':
-    'cmd-º':'tree-view:toggle-focus'
+  'cmd-º':'tree-view:toggle-focus',
+  'ctrl-l': 'linter:toggle'
 
 'atom-workspace':
     'cmd-º':'tree-view:toggle-focus'

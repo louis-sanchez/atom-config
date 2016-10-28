@@ -8,8 +8,9 @@
       "dalmau-theme-syntax"
     ]
   editor:
-    tabLength: 4
+    fontSize: 15
   "exception-reporting":
     userId: "86fd6643-9456-3043-df95-1d888e89bd07"
+  linter: {}
   welcome:
     showOnStartup: false

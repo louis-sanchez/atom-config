@@ -31,7 +31,7 @@
   'suite()':
     'prefix': 'suite'
     'body': """
-      suite(\"${1:name}\", () => {
+      suite(\'${1:name}\', () => {
         $2
       });
     """
@@ -52,7 +52,7 @@
   'test()':
     'prefix': 'test'
     'body': """
-      test(\"${1:description}\", () => {
+      test(\'${1:description}\', () => {
         $2
       });
     """

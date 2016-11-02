@@ -31,28 +31,28 @@
   'suite()':
     'prefix': 'suite'
     'body': """
-      suite(\"${1:name}\", function () {
+      suite(\"${1:name}\", () => {
         $2
       });
     """
   'setup()':
     'prefix': 'setup'
     'body': """
-      setup(function () {
+      setup(() => {
         $1
       });
     """
   'teardown()':
     'prefix': 'teardown'
     'body': """
-      teardown(function () {
+      teardown(() => {
         $1
       });
     """
   'test()':
     'prefix': 'test'
     'body': """
-      test(\"${1:description}\", function () {
+      test(\"${1:description}\", () => {
         $2
       });
     """
